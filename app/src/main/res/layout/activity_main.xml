@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <com.example.gaugeview.GaugeView
+        android:id="@+id/gaugeView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:default_description_value="Good"
+        app:bfr_description_vertical_margin="22dp"
+        app:bfr_moderate_text_vertical_margin="14dp"
+        app:bfr_value_vertical_margin="24dp"
+        app:desc_text_size="8sp"
+        app:title_text_size="14sp"
+        app:is_space_enabled_between_parts="true"
+        app:niddle_vertical_margin="50dp"
+        app:normal_text_size="14sp" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

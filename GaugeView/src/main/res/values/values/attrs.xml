@@ -1,0 +1,27 @@
+<resources>
+    <declare-styleable name="Gauge">
+        <attr name="default_value" format="float" />
+        <attr name="default_description_value" format="string" />
+
+        <attr name="is_space_enabled_between_parts" format="boolean" />
+        <attr name="gauge_width" format="float" />
+
+        <attr name="title_text_color" format="integer" />
+        <attr name="title_text_size" format="float" />
+        <attr name="title_text_font" format="integer" />
+
+        <attr name="desc_text_color" format="integer" />
+        <attr name="desc_text_size" format="float" />
+        <attr name="desc_text_font" format="integer" />
+
+        <attr name="show_gauge_indicator" format="boolean" />
+        <attr name="gauge_indicator_color" format="integer" />
+        <attr name="gauge_indicator_width" format="float" />
+
+        <attr name="arrow_default_color" format="integer" />
+        <attr name="labelPosition" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>

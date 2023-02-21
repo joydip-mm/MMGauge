@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="default_gauge_color">
+        <item>#f4c4bb</item>
+        <item>#f5c7ba</item>
+        <item>#f8dcbd</item>
+        <item>#efecc6</item>
+        <item>#d4f6d9</item>
+        <item>#c5f7e7</item>
+    </array>
+</resources>

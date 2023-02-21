@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="title_default_color">#77d579</color>
+    <color name="arrow_default_color">#5AAADD</color>
+
+
+
+
+
+
+    <color name="dark_grey_blue">#29395C</color>
+
+
+
+    <color name="first_selected">#DD381D</color>
+    <color name="second_selected">#E26020</color>
+    <color name="third_selected">#E99224</color>
+    <color name="fourth_selected">#FDD83B</color>
+    <color name="fifth_selected">#62D375</color>
+    <color name="sixth_selected">#38DDB6</color>
+    <color name="seventh_selected">#30D0AF</color>
+    <color name="eighth_selected">#43BBF4</color>
+    <color name="ninth_selected">#25ADEE</color>
+    <color name="tenth_selected">#1E8FC6</color>
+
+
+    <color name="first_unselected">#60DD381D</color>
+    <color name="second_unselected">#60E26020</color>
+    <color name="third_unselected">#60E99224</color>
+    <color name="fourth_unselected">#60FDD83B</color>
+    <color name="fifth_unselected">#6062D375</color>
+    <color name="sixth_unselected">#6038DDB6</color>
+    <color name="seventh_unselected">#6030D0AF</color>
+    <color name="eighth_unselected">#6043BBF4</color>
+    <color name="ninth_unselected">#6025ADEE</color>
+    <color name="tenth_unselected">#601E8FC6</color>
+
+
+</resources>

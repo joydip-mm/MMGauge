@@ -1,0 +1,69 @@
+<resources>
+
+  <declare-styleable name="SolunarView">
+    <attr name="clickAnimationEnabled" format="boolean" />
+  </declare-styleable>
+
+  <declare-styleable name="SolunarClockView">
+    <attr name="textSize" format="dimension" />
+    <attr name="outerCircleStroke" format="dimension" />
+    <attr name="timePointerLength" format="dimension" />
+  </declare-styleable>
+
+  <declare-styleable name="CircularCheckBox">
+    <attr name="duration" format="integer" />
+    <attr name="stroke_width" format="dimension" />
+    <attr name="color_tick" format="color" />
+    <attr name="color_checked" format="color" />
+    <attr name="color_disabled" format="color" />
+    <attr name="color_unchecked" format="color" />
+    <attr name="color_unchecked_stroke" format="color" />
+  </declare-styleable>
+
+  <declare-styleable name="RippleBackground">
+    <attr name="rb_color" format="color" />
+    <attr name="rb_strokeWidth" format="dimension" />
+    <attr name="rb_radius" format="dimension" />
+    <attr name="rb_duration" format="integer" />
+    <attr name="rb_rippleAmount" format="integer" />
+    <attr name="rb_scale" format="float" />
+    <attr name="rb_type" format="enum">
+      <enum name="fillRipple" value="0" />
+      <enum name="strokeRipple" value="1" />
+    </attr>
+  </declare-styleable>
+
+  <declare-styleable name="GaugeView">
+    <attr name="default_value" format="float" />
+    <attr name="default_description_value" format="string" />
+
+    <attr name="is_space_enabled_between_parts" format="boolean" />
+    <attr name="gauge_width" format="float" />
+
+    <attr name="title_text_color" format="integer" />
+    <attr name="title_text_size" format="dimension" />
+    <attr name="title_text_font" format="integer" />
+
+    <attr name="desc_text_color" format="integer" />
+    <attr name="desc_text_size" format="dimension" />
+    <attr name="desc_text_font" format="integer" />
+
+    <attr name="show_gauge_indicator" format="boolean" />
+    <attr name="gauge_indicator_color" format="integer" />
+    <attr name="gauge_indicator_width" format="float" />
+
+    <attr name="bfr_value_vertical_margin" format="dimension" />
+    <attr name="bfr_description_vertical_margin" format="dimension" />
+    <attr name="bfr_moderate_text_vertical_margin" format="dimension" />
+    <attr name="niddle_vertical_margin" format="dimension" />
+    <attr name="bfr_finnse_power_vertical_margin" format="dimension" />
+    <attr name="normal_text_size" format="dimension" />
+
+    <attr name="arrow_default_color" format="integer" />
+    <attr name="labelPosition" format="enum">
+      <enum name="left" value="0"/>
+      <enum name="right" value="1"/>
+    </attr>
+  </declare-styleable>
+
+</resources>
