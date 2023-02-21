@@ -14,5 +14,6 @@ allprojects {
 ```
 allprojects {
     implementation 'com.github.joydip-mm:MMGauge:1.0.0'
+    }
 ```
 
