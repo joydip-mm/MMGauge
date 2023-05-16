@@ -1,4 +1,4 @@
-package com.example.gaugeview
+package com.joydip1997.gaugeactivity
 
 import org.junit.Test
 

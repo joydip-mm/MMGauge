@@ -7,7 +7,7 @@
     android:fitsSystemWindows="true"
     tools:context=".MainActivity">
 
-    <com.example.gaugeview.GaugeView
+    <com.joydip1997.gaugeview.GaugeView
         android:id="@+id/gaugeView"
         android:layout_width="match_parent"
         android:layout_height="300dp"

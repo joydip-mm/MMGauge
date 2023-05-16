@@ -1,4 +1,4 @@
-package com.example.gaugeview
+package com.joydip1997.gaugeview
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

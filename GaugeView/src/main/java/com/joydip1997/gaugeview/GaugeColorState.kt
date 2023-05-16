@@ -1,4 +1,4 @@
-package com.example.gaugeview
+package com.joydip1997.gaugeview
 
 data class GaugeColorState(
     val selectedColor : Int,

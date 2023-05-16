@@ -1,6 +1,7 @@
-package com.example.gaugeview
+package com.joydip1997.gaugeview
 
 
+import android.animation.ValueAnimator
 import android.annotation.SuppressLint
 import android.content.Context
 import android.graphics.*
@@ -10,6 +11,7 @@ import android.util.AttributeSet
 import android.view.View
 import androidx.annotation.RequiresApi
 import androidx.core.content.ContextCompat
+import com.example.gaugeview.R
 import kotlin.math.floor
 
 
@@ -133,28 +135,45 @@ class GaugeView(val appContext: Context?, attrs: AttributeSet?) : View(appContex
                 isSpaceEnabledBetweenParts = getBoolean(R.styleable.GaugeView_is_space_enabled_between_parts, false)
                 gaugePartsWidth = getFloat(R.styleable.GaugeView_gauge_width, 150f)
 
-                titleTextColor = getInt(R.styleable.GaugeView_title_text_color, R.color.title_default_color)
-                titleTextSize = getDimension(R.styleable.GaugeView_title_text_size,
+                titleTextColor = getInt(
+                    R.styleable.GaugeView_title_text_color,
+                    R.color.title_default_color
+                )
+                titleTextSize = getDimension(
+                    R.styleable.GaugeView_title_text_size,
                     16f)
-                titleTextFont = getInt(R.styleable.GaugeView_title_text_font, R.font.sf_pro_text_bold)
+                titleTextFont = getInt(
+                    R.styleable.GaugeView_title_text_font,
+                    R.font.sf_pro_text_bold
+                )
 
-                descTextColor = getInt(R.styleable.GaugeView_desc_text_color, R.color.title_default_color)
-                descTextSize =  getDimension(R.styleable.GaugeView_desc_text_size,
+                descTextColor = getInt(
+                    R.styleable.GaugeView_desc_text_color,
+                    R.color.title_default_color
+                )
+                descTextSize =  getDimension(
+                    R.styleable.GaugeView_desc_text_size,
                     16f)
                 descTextFont = getInt(R.styleable.GaugeView_desc_text_font, R.font.sf_pro_text_bold)
 
 
-                bfrTitleVerticalMargin = getDimension(R.styleable.GaugeView_bfr_value_vertical_margin,
+                bfrTitleVerticalMargin = getDimension(
+                    R.styleable.GaugeView_bfr_value_vertical_margin,
                   16f)
-                bfrDescriptionVerticalMargin = getDimension(R.styleable.GaugeView_bfr_description_vertical_margin,
+                bfrDescriptionVerticalMargin = getDimension(
+                    R.styleable.GaugeView_bfr_description_vertical_margin,
                     16f)
-                bfrModerateTexVerticalMargin = getDimension(R.styleable.GaugeView_bfr_moderate_text_vertical_margin,
+                bfrModerateTexVerticalMargin = getDimension(
+                    R.styleable.GaugeView_bfr_moderate_text_vertical_margin,
                    16f)
-                niddleVerticalMargin = getDimension(R.styleable.GaugeView_niddle_vertical_margin,
+                niddleVerticalMargin = getDimension(
+                    R.styleable.GaugeView_niddle_vertical_margin,
                     40f)
-                bfrFinnseAndPowerTextVerticalMargin = getDimension(R.styleable.GaugeView_bfr_finnse_power_vertical_margin,
+                bfrFinnseAndPowerTextVerticalMargin = getDimension(
+                    R.styleable.GaugeView_bfr_finnse_power_vertical_margin,
                     10f)
-                normalTextSize = getDimension(R.styleable.GaugeView_normal_text_size,
+                normalTextSize = getDimension(
+                    R.styleable.GaugeView_normal_text_size,
                     16f)
 
             } finally {

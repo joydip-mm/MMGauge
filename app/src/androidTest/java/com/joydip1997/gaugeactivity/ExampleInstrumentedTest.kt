@@ -1,4 +1,4 @@
-package com.example.gaugeactivity
+package com.joydip1997.gaugeactivity
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

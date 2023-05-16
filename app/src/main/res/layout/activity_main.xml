@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".MainActivity">
+    tools:context="com.joydip1997.gaugeactivity.MainActivity">
 
-    <com.example.gaugeview.GaugeView
+    <com.joydip1997.gaugeview.GaugeView
         android:id="@+id/gaugeView"
         android:layout_width="match_parent"
         android:layout_height="300dp"

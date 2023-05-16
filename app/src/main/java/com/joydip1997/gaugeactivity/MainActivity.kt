@@ -1,9 +1,11 @@
-package com.example.gaugeactivity
+package com.joydip1997.gaugeactivity
 
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.gaugeview.GaugeColorState
+import com.example.gaugeactivity.R
+import com.joydip1997.gaugeview.GaugeColorState
+import com.joydip1997.gaugeview.GaugeView
 
 class MainActivity : AppCompatActivity() {
 
@@ -54,7 +56,7 @@ class MainActivity : AppCompatActivity() {
 
 
         )
-        findViewById<com.example.gaugeview.GaugeView>(R.id.gaugeView).apply {
+        findViewById<GaugeView>(R.id.gaugeView).apply {
             setGaugeValues(gaugeListValue)
             setOnClickListener {
                 setValue(6.05,"GOOD")
